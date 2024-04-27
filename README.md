@@ -46,12 +46,16 @@ git clone https://github.com/lahirusamishka/angular-docker.git
 cd angular-docker
 make up
 ```
+
+Ready! Next, we will access the URL `http://localhost:4200/` and check if the application is working.
+
+
 **3.** To stop the app.
 ```powershell
 make down
 ```
-**4.** Ready! Next, we will access the URL `http://localhost:4200/` and check if the application is working.
+
+## Contribution
 
 
-## License
-[MIT](./LICENSE.md)
+We welcome contributions to this project! Please create pull requests to share improvements or fixes.
