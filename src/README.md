@@ -1,77 +1,27 @@
-# Deploy Angular 17 App with Docker & Nginx (Production-Ready)
+# Angular App
 
-This repository offers a streamlined setup for deploying Angular 17 applications in production environments with Docker and Nginx. It includes a multi-stage Dockerfile for efficient image creation, a Nginx configuration file for serving static assets, and a Makefile for simplified build and run commands. Following these instructions, developers can effortlessly deploy their Angular apps in production environments.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
 
+## Development server
 
-[![Website](https://shields.braskam.com/v1/shields?name=website&format=rectangle&size=small&radius=5)](https://www.lahirusamishka.me/)
-[![LinkedIn](https://shields.braskam.com/v1/shields?name=linkedin&format=rectangle&size=small&radius=5)](https://www.linkedin.com/in/lahirusamishka)
-[![Twitter](https://shields.braskam.com/v1/shields?name=twitter&format=rectangle&size=small&radius=5)](https://twitter.com/samishkaz)
-[![Instagram](https://shields.braskam.com/v1/shields?name=instagram&format=rectangle&size=small&radius=5)](https://www.instagram.com/lahiru_samishka)
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Prerequisites
+## Build
 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-Before you start, you need to install and configure the tools:
+## Running unit tests
 
-* [git](https://git-scm.com/)
-* [Docker Engine](https://docs.docker.com/engine/install/)
-* IDE (e.g. [Visual Studio Code](https://code.visualstudio.com/))
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+## Running end-to-end tests
 
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
+## Further help
 
-## Key Features
-
-
-
-* Angular 17: Leverages the latest features and performance improvements of Angular 17.
-* Docker: Ensures consistent and isolated application environments across deployments.
-* Nginx: Optimizes web server performance for production needs.
-* Multi-Stage Dockerfile: Creates smaller and more secure container images.
-* Makefile: Simplifies builds and container management.
-* MIT License: Freely share and contribute to this project.
-
-## Installation
-
-
-**1.** Clone the repository
-```powershell
-git clone https://github.com/lahirusamishka/angular-docker.git
-```
-
-**2.** To start the app.
-```powershell
-cd angular-docker
-make up
-```
-**3.** To stop the app.
-```powershell
-make down
-```
-
-Check Browser [localhost:4200](localhost:4200)
-
-## License
-[MIT](./LICENSE.md)
-```powershell
-npm start
-
-> angular-docker@0.0.0 start
-> ng serve
-
-
-Initial Chunk Files | Names         |  Raw Size
-polyfills.js        | polyfills     |  82.71 kB | 
-main.js             | main          |  23.23 kB | 
-styles.css          | styles        |  96 bytes | 
-
-                    | Initial Total | 106.03 kB
-
-Application bundle generation complete. [1.504 seconds]
-Watch mode enabled. Watching for file changes...
-  ➜  Local:   http://localhost:4200/
-```
-
-**3.** Ready! Next, we will access the URL `http://localhost:4200/` and check if the application is working.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
